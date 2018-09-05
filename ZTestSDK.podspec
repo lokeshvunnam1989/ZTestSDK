@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ZTestSDK'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = 'Provide description about ZTestSDK'
   s.homepage         = 'https://zizera.com/'
   s.license = { :type => "LICENCE", :text => "All Rights Reserve to zizera.com"}
