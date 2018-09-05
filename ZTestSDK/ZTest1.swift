@@ -7,6 +7,9 @@
 //
 
 import Foundation
+import SwiftyJSON
+import Alamofire
+import Reachability
 
 public class ZTest1 {
     
@@ -14,7 +17,11 @@ public class ZTest1 {
         return 1
     }
     
-    func zTestingMethod2() -> String {
+    public func zTestingMethod2() -> String {
         return "ZTest1 Sep-5"
+    }
+    
+    public func ztestMethod3() -> JSON {
+        return JSON(["publication":"001"])
     }
 }

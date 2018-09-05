@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		680C07791DC775DC95FBDA80 /* Pods_ZTestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF828BCD7100A656D20CB901 /* Pods_ZTestSDK.framework */; };
 		801ACB2D2110464E00C10D21 /* ZTestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801ACB232110464E00C10D21 /* ZTestSDK.framework */; };
 		801ACB322110464E00C10D21 /* ZTestSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801ACB312110464E00C10D21 /* ZTestSDKTests.swift */; };
 		801ACB342110464E00C10D21 /* ZTestSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 801ACB262110464E00C10D21 /* ZTestSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		515EB64C78FCDFA0BDD790F0 /* Pods-ZTestSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTestSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZTestSDK/Pods-ZTestSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		801ACB232110464E00C10D21 /* ZTestSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZTestSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		801ACB262110464E00C10D21 /* ZTestSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTestSDK.h; sourceTree = "<group>"; };
 		801ACB272110464E00C10D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -38,6 +40,8 @@
 		801ACB3D21105AAC00C10D21 /* ZTest1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTest1.swift; sourceTree = "<group>"; };
 		801ACB4021105B8A00C10D21 /* ZTest2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTest2.swift; sourceTree = "<group>"; };
 		801ACB4321105BDF00C10D21 /* ZTest3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTest3.swift; sourceTree = "<group>"; };
+		9CD51E8D4D4773F5FA2BD4B7 /* Pods-ZTestSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTestSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZTestSDK/Pods-ZTestSDK.release.xcconfig"; sourceTree = "<group>"; };
+		DF828BCD7100A656D20CB901 /* Pods_ZTestSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZTestSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				680C07791DC775DC95FBDA80 /* Pods_ZTestSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,12 +64,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BE113CEDC089458EC3D4857 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF828BCD7100A656D20CB901 /* Pods_ZTestSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		801ACB192110464E00C10D21 = {
 			isa = PBXGroup;
 			children = (
 				801ACB252110464E00C10D21 /* ZTestSDK */,
 				801ACB302110464E00C10D21 /* ZTestSDKTests */,
 				801ACB242110464E00C10D21 /* Products */,
+				AB0A632D818AEEBF2A928800 /* Pods */,
+				1BE113CEDC089458EC3D4857 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +113,15 @@
 			path = ZTestSDKTests;
 			sourceTree = "<group>";
 		};
+		AB0A632D818AEEBF2A928800 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				515EB64C78FCDFA0BDD790F0 /* Pods-ZTestSDK.debug.xcconfig */,
+				9CD51E8D4D4773F5FA2BD4B7 /* Pods-ZTestSDK.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -116,6 +140,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 801ACB372110464E00C10D21 /* Build configuration list for PBXNativeTarget "ZTestSDK" */;
 			buildPhases = (
+				043BDD5A9E04B2ADA09402FA /* [CP] Check Pods Manifest.lock */,
 				801ACB1E2110464E00C10D21 /* Sources */,
 				801ACB1F2110464E00C10D21 /* Frameworks */,
 				801ACB202110464E00C10D21 /* Headers */,
@@ -201,6 +226,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		043BDD5A9E04B2ADA09402FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZTestSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		801ACB1E2110464E00C10D21 /* Sources */ = {
@@ -357,6 +407,7 @@
 		};
 		801ACB382110464E00C10D21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 515EB64C78FCDFA0BDD790F0 /* Pods-ZTestSDK.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -384,6 +435,7 @@
 		};
 		801ACB392110464E00C10D21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CD51E8D4D4773F5FA2BD4B7 /* Pods-ZTestSDK.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
