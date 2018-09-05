@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/lokeshvunnam1989/ZTestSDK.git', :tag => "v#{s.version}" }
   # s.source           = { :http => 'https://development.zizera.in/zlite/assets/zizera/repository/zizera-ios-app-binary/podframework.zip' }
   s.ios.deployment_target = '9.0'
-  s.source_files = 'ZTestSDK/*.swift', 'ZTestSDK/ZTestSDK.h'
+  s.source_files = 'ZTestSDK/*.{swift,h}'
   # s.vendored_frameworks = 'ZizeraSDK.framework'
   # s.requires_arc = true
   # s.dependency 'SQLite.swift'
