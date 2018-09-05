@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ZTestSDK'
-  s.version          = '1.0.1'
+  s.version          = '1.0.5'
   s.summary          = 'Provide description about ZTestSDK'
   s.homepage         = 'https://zizera.com/'
   s.license = { :type => "LICENCE", :text => "All Rights Reserve to zizera.com"}
@@ -11,9 +11,8 @@ Pod::Spec.new do |s|
   s.source_files = 'ZTestSDK/*.{swift,h}'
   # s.vendored_frameworks = 'ZizeraSDK.framework'
   # s.requires_arc = true
-  # s.dependency 'SQLite.swift'
-  # s.dependency 'Alamofire'
-  # s.dependency 'Zip','~> 0.7'
-  # s.dependency 'SwiftyJSON','~> 3.1.4'
-  # s.dependency 'ReachabilitySwift'
+  s.dependency 'SQLite.swift'
+  s.dependency 'Alamofire'
+  s.dependency 'SwiftyJSON','~> 3.1.4'
+  s.dependency 'ReachabilitySwift'
 end
